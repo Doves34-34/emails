@@ -6,7 +6,7 @@ import secrets
 app = Flask(__name__)
 api = Api(app)
 
-client = MongoClient("mongodb+srv://zepeto:xayz8910@zepeto.e1q958e.mongodb.net/")
+client = MongoClient("")
 db = client.get_database('mail_db')
 mailboxes = db.mailboxes
 
